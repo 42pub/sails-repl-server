@@ -7,7 +7,7 @@
     "test": "tsc && mocha -r ts-node/register '{,**/}*.test.ts'"
   },
   "keywords": [],
-  "author": "webresto, xziy",
+  "author": "42pub",
   "license": "MIT",
   "sails": {
     "isHook": true,

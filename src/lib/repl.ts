@@ -6,7 +6,7 @@ var os = require('os');
 var path = require('path');
 var historyFile = path.join(process.cwd(), '.tmp','.repl_history');
 
-const defaultWelcome = `WebResto REPL server`
+const defaultWelcome = `Sails.js REPL server`
 const defaultPrompt = '> '
 
 module.exports = function ({

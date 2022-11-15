@@ -4,7 +4,7 @@ const Stream = require('stream');
 var os = require('os');
 var path = require('path');
 var historyFile = path.join(process.cwd(), '.tmp', '.repl_history');
-const defaultWelcome = `WebResto REPL server`;
+const defaultWelcome = `Sails.js REPL server`;
 const defaultPrompt = '> ';
 module.exports = function ({ prompt = defaultPrompt, welcome = defaultWelcome, terminal = false, useColors = true, useGlobal = false, ignoreUndefined = true, } = {}) {
     return function replOverHTTP(req, res) {
